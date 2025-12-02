@@ -5,6 +5,6 @@ public class Cricket extends Game{
     }
     @Override
     public void play(){
-        System.out.println("Cricket is being played");
+        System.out.println(name + " needs " + players + " players.");
     }
 }

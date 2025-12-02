@@ -5,6 +5,6 @@ public class Football extends Game{
     }
     @Override
     public void play(){
-        System.out.println("Football is being played");
+        System.out.println(name + " needs " + players + " players.");
     }
 }
