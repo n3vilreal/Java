@@ -4,7 +4,6 @@ import java.sql.DriverManager;
 public class TestJDBC {
     public static void main(String[] args) {
         try {
-            // 🔴 ADD THIS LINE
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             String url = "jdbc:mysql://localhost:3306/testdb?useSSL=false&allowPublicKeyRetrieval=true";
